@@ -10,12 +10,36 @@
     
   }
 
-  .header, .hero-container, .info-container, .quote, .signupbox, .footer{
+  button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #d9dbdd;
+  }
+
+  .header, .hero-container, .info-container, .quote, .action{
     padding: 20px 125px 100px 200px;
     
   }
   
-  .header, .hero-container {
+  .header, .hero-container, .footer {
     background-color: #1f2937;
     
   }
@@ -116,34 +140,51 @@
     
   }
 
+  .quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding-top: 100px;
+  }
   
+  .quote-signature {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+  }
 
 
-  button {
-    padding: 10px 40px;
-    margin-top: 20px;
-    background-color: #3882F6;
-    border: none;
-    border-radius: 8px;
+  .action {
+    padding-top: 100px;
+  }
+
+  .actionbox {
+    background: #3882F6;
+    border-radius: 15px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
     color: white;
-    font-size: 18px;
+    align-items: center;
+  }
+
+  .actionbutton {
+    border: 3px solid white;
+    margin: 0;
+  }
+
+  .actiontitle {
+    font-size: 25px;
     font-weight: bold;
   }
-  
-  ul{
-    list-style-type: none;
+
+  .footer {
     display: flex;
-    gap: 15px;
-    align-items: flex-start;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
   }
-
-  a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #d9dbdd;
-  }
-
-
-
-  
-
