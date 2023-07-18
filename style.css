@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+  body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    flex-basis: 1500px;
+  
+    
+  }
+
+  .header, .hero-container, .info-container, .quote, .signupbox, .footer {
+    padding: 20px 125px 100px 200px;
+    
+  }
+  
+  .header, .hero-container {
+    background-color: #1f2937;
+    
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+    
+  }
+
+  .hero-container {
+    display: flex;
+    flex: 1;
+    /* padding: 10px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+  }
+
+  .hero-left {
+    width: 50%;
+  }
+
+  .hero-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+
+  .hero-body, .links {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+
+  .box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 300px;
+    height: 80px;
+  }
+
+  .links {
+    size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #d9dbdd;
+  }
+
+
+
+  
+
